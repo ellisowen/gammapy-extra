@@ -27,11 +27,11 @@ Details
 
 Commands:
 
-The above files were produced with the Fermi Science Tools. The commands used to create all files are included in sequence in the executable script ``make.sh``.
+The above files were produced with the Fermi Science Tools. The commands used to create all files are included in sequence in the executable script ``make.sh``. All commands take a few minutes to run, **with the exception of gtltcube, which will run for a few hours.**
 
 This reflects the preparation steps outlined in option 2 of the FSSC page for excluding atmospheric background events: http://fermi.gsfc.nasa.gov/ssc/data/analysis/documentation/Cicerone/Cicerone_Likelihood/Exposure.html
 
-See ``background_model.xml`` for the background model used to produce ``background_vela.fits``. This uses the Fermi Diffuse Background model, ``gll_iem_v05_rev1_cutout.fits`` (also included here). Additionally ``point_model.xml`` additionally includes a point source model for the Vela Pulsar with the Fermi Diffuse Background to produce ``point_model.fits``.
+See ``background_model.xml`` for the background model used to produce ``background_vela.fits``. This uses the Fermi Diffuse Background model, ``gll_iem_v05_rev1_cutout.fits`` (also included here). Additionally ``total_model.xml`` additionally includes a point source model for the Vela Pulsar with the Fermi Diffuse Background to produce ``total_model.fits``.
 
 For create the file ``gll_iem_v05_rev1_cutout.fit``, the following commands were run:
 
